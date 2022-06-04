@@ -1,0 +1,31 @@
+body{
+    background-image:url(../img/pokedex.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: auto;
+}
+h1{
+    font-size: 2rem;
+}
+h1, h3, p{
+    color: var(--blanco);
+    font-size: 1.5rem;
+}
+.card{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    height: 200px;
+}
+.card-header{
+    display: none;
+}
+.refresk{
+    display:inline-block;
+    background: green;
+    padding: 1rem 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+}
